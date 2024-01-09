@@ -1,0 +1,19 @@
+body {
+    background: rgb(233, 233, 247);
+    font-family: 'Poppins', sans-serif;
+    }
+  
+    header {
+      border-radius: 10px;
+      background: white;
+      text-align: center;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .card{
+        width:fit-content;
+        height:fit-content ;
+        display: flex;
+        flex-direction: row;
+    }
+    

@@ -1,0 +1,71 @@
+body {
+  background: rgb(233, 233, 247);
+  font-family: 'Poppins', sans-serif;
+  }
+
+  header {
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+.card{
+  float: left;
+  display: inline-flex;
+  height: auto;
+  width: auto;
+  margin: auto;
+  
+
+}
+.card-img-top{
+  width: 200px;
+  height: 260px;
+}
+
+.card:hover{
+  transform: scale(1.01);
+
+}
+
+.col{
+  flex: 100%;
+  max-width: 10%; 
+}
+  
+.menu {
+  display: flex;
+  flex-direction: column;
+ }
+ h4{
+  color: #8c65a4; ;
+ }
+
+footer{ 
+  border-radius: 10px;
+  background: white;
+  text-align: center;
+  box-shadow: rgba(242, 244, 247, 0.2) 0px 8px 24px;
+  
+}
+  @media screen and (min-width: 992px) {
+    .card {
+      flex:auto;
+    }
+    .col-4{
+      display: flex;
+      flex-direction: column;
+    }
+   
+  }
+  @media only screen and (max-width: 600px) {
+
+    .card {
+      flex: auto;
+    }
+    .col-4 {
+      width: auto;
+
+    }
+  }
